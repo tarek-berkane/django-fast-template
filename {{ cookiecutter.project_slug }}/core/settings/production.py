@@ -27,6 +27,7 @@ MEDIA_URL = "/media/"
 # =======================
 # DATABASE
 # =======================
+
 {%- if cookiecutter.project_database == "sqlite3"  -%}
 DATABASES = {
     'default': {

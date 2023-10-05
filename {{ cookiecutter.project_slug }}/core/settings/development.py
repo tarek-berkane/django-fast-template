@@ -26,6 +26,7 @@ INTERNAL_IPS = [
 # =======================
 # DATABASE
 # =======================
+
 {%- if  cookiecutter.use_sqlite3_for_dev == True or cookiecutter.project_database == "sqlite3"  -%}
 DATABASES = {
     'default': {

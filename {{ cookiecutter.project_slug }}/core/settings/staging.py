@@ -17,6 +17,7 @@ ALLOWED_HOSTS = ["*"]
 # =======================
 # DATABASE
 # =======================
+
 {%- if cookiecutter.project_database == "sqlite3"  -%}
 DATABASES = {
     'default': {
