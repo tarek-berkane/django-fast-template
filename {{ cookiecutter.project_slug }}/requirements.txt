@@ -1,0 +1,13 @@
+black==23.3
+Django==4.2
+django-browser-reload==1.8
+django-debug-toolbar==4.0
+django-environ==0.10
+{%- if cookiecutter.project_database == "postgresql" -%}
+psycopg==3.1
+psycopg-binary==3.1
+typing_extensions==4.8
+{% endif %}
+{%- if cookiecutter.include_redis -%}
+django-redis==5.4
+{% endif %}

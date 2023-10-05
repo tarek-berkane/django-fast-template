@@ -1,0 +1,7 @@
+my_env/
+**/__pycache__/*
+**/000*
+__pycache__/
+upload/
+db.sqlite3
+.vscode/
